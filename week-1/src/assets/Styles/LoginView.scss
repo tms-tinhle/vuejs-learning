@@ -1,0 +1,83 @@
+.register {
+  width: 40%;
+  margin: 20px auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+
+  &-header {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  &-form {
+    display: flex;
+    flex-direction: column;
+
+    &__lable {
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+      color: #444;
+    }
+
+    &__input {
+      padding: 0.6rem 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+      transition: border-color 0.2s;
+      word-wrap: break-word;  // Đảm bảo không tràn
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+      &:focus {
+        border-color: #007bff;
+        outline: none;
+      }
+    }
+
+    &__button {
+      margin-top: 1rem;
+      padding: 0.8rem;
+      background-color: #007bff;
+      color: white;
+      font-weight: bold;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: #0056b3;
+      }
+
+      &:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+      }
+    }
+  }
+}
+
+.json-output {
+  background-color: #f6f8fa;
+  color: #24292e;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #e1e4e8;
+  font-family: 'Courier New', Courier, monospace;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin-top: 1rem;
+}
