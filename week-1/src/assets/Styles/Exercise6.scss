@@ -1,0 +1,36 @@
+.ex {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+  &__one {
+    margin: 40px 0;
+
+    display: flex;
+    align-self: center;
+    gap: 20px;
+    input {
+      padding: 8px 12px;
+      font-size: 16px;
+      border: 2px solid #ccc;
+      border-radius: 6px;
+      outline: none;
+      transition: border-color 0.3s ease;
+
+      &:focus {
+        border-color: #007bff;
+      }
+    }
+  }
+
+  &__two {
+    margin: 40px 0;
+    display: flex;
+    align-self: center;
+    gap: 20px;
+    p {
+      font-size: 20px;
+      color: #333;
+    }
+  }
+}
