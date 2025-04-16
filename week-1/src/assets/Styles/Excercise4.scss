@@ -1,0 +1,57 @@
+.counter-app {
+  text-align: center;
+  margin-top: 50px;
+
+  // Display counter
+  &__display {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  // Buttons container
+  &__button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+
+    // Modifier for increment button
+    &--increment {
+      background-color: #42b983;
+    }
+
+    // Modifier for decrement button
+    &--decrement {
+      background-color: #e74c3c;
+    }
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  // Input field
+  &__input {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    &:focus {
+      border-color: #42b983;
+    }
+  }
+
+  // Text showing input value
+  &__input-text {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+  }
+}
