@@ -7,6 +7,7 @@ const navItems = [
   { path: '/bai2', label: 'Bai 2: v-html, v-text' },
   { path: '/bai3', label: 'Bai 3: v-bind' },
   { path: '/bai4', label: 'bai 4: v-on' },
+  { path: '/bai5', label: 'bai 5: class & style'}
 ]
 </script>
 

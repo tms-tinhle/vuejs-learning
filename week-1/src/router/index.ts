@@ -23,8 +23,12 @@ const router = createRouter({
       path: '/bai4',
       name: 'bai4',
       component: () => import('../views/Excercise4.vue'),
-    }
-
+    },
+    {
+      path: '/bai5',
+      name: 'bai5',
+      component: () => import('../views/Excercise5.vue'),
+    },
   ],
 })
 
