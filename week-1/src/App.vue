@@ -4,8 +4,9 @@ const route = useRoute()
 
 const navItems = [
   { path: '/login', label: 'Bai 1: Login' },
-  { path: '/', label: 'Bai 2: v-html, v-text' },
-  { path: '/about', label: 'Bai 3: v-bind' },
+  { path: '/bai2', label: 'Bai 2: v-html, v-text' },
+  { path: '/bai3', label: 'Bai 3: v-bind' },
+  { path: '/bai4', label: 'bai 4: v-on' },
 ]
 </script>
 
