@@ -9,7 +9,7 @@
   <div class="container">
     <h2>List fruits</h2>
     <ItemListComponent :items="fruits">
-      <template #default="{ item }">
+      <template v-slot="{ item }">
         {{ item }}
       </template>
     </ItemListComponent>
