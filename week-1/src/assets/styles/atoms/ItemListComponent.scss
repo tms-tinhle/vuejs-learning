@@ -1,0 +1,15 @@
+ul {
+  list-style-type: none; /* Loại bỏ dấu đầu dòng mặc định */
+  padding: 0;
+  margin: 0;
+  border: 1px solid #262525; /* Thêm một đường viền nhẹ */
+  border-radius: 5px; /* Bo tròn góc */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Thêm bóng đổ nhẹ */
+  width: fit-content; /* Chỉ chiếm chiều rộng cần thiết */
+}
+
+li {
+  padding: 20px;
+  border-bottom: #1e1e1e solid 1px; /* Đường viền dưới mỗi mục */
+  // cursor: pointer; /* Con trỏ chuột khi hover */
+}
