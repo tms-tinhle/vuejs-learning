@@ -17,5 +17,5 @@
 </template>
 
 <style lang="scss">
-  @use '../assets/styles/ExcerciseOne.scss'
+  @use '../assets/styles/excercise-one.scss'
 </style>

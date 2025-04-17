@@ -32,5 +32,5 @@ const reverse = () => {
 </script>
 
 <style lang="scss" scoped>
-  @use '../assets/styles/ExcerciseFour.scss';
+  @use '../assets/styles/excercise-four.scss';
 </style>

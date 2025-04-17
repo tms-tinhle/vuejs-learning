@@ -20,5 +20,5 @@ defineProps({
 </script>
 
 <style lang="scss">
-  @use '../../assets/styles/atoms/ItemListComponent.scss';
+  @use '../../assets/styles/atoms/item-list-component.scss';
 </style>
