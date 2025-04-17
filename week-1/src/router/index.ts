@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Ex41 from '../views/ExerciseOne.vue'
+import Ex41 from '../views/ExerciseOneView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -12,22 +12,22 @@ const router = createRouter({
     {
       path: '/bai4.2',
       name: 'bai2',
-      component: () => import('../views/ExcerciseTwo.vue'),
+      component: () => import('../views/ExcerciseTwoView.vue'),
     },
     {
       path: '/bai4.3',
       name: 'bai3',
-      component: () => import('../views/ExcerciseThree.vue'),
+      component: () => import('../views/ExcerciseThreeView.vue'),
     },
     {
       path: '/bai4.4',
       name: 'bai4',
-      component: () => import('../views/ExcerciseFour.vue'),
+      component: () => import('../views/ExcerciseFourView.vue'),
     },
     {
       path: '/bai4.5',
       name: 'bai5',
-      component: () => import('../views/ExcerciseFive.vue'),
+      component: () => import('../views/ExcerciseFiveView.vue'),
     },
   ],
 })
