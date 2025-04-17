@@ -1,9 +1,9 @@
 
-
 <template>
   <ul>
-    <li v-for="item in items" :key="item || item.id">
-      <slot :item>{{ item }}</slot>
+    <li v-for="item in items" :key="item.id">
+      <slot :item>{{ a }}</slot>
+
     </li>
   </ul>
 </template>
@@ -14,7 +14,6 @@ import { defineProps } from 'vue';
 defineProps({
   items: {
     type: Array,
-    required: true,
     default: () => []
   }
 })
