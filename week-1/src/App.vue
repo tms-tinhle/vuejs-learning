@@ -6,21 +6,23 @@ import { NavItems } from '@/constant/navItemsConstant';
 </script>
 
 <template>
-  <header>
-    <div class="wrapper">
-      <nav>
-        <RouterLink
-          v-for="item in NavItems"
-          :key="item.path"
-          :to="item.path"
-          :class="{ active: route.path === item.path }"
-        >
-          {{ item.label }}
-        </RouterLink>
-      </nav>
+  <div class="container">
+    <div class="container">
+      <header class="header">
+        <div class="header__wrapper">
+          <nav class="header__nav">
+            <RouterLink v-for="item in NavItems" :key="item.path" :to="item.path"
+              :class="['header__link', { 'header__link--active': route.path === item.path }]">
+              {{ item.label }}
+            </RouterLink>
+          </nav>
+        </div>
+      </header>
+      <RouterView />
     </div>
-  </header>
-  <RouterView />
+
+    <RouterView />
+  </div>
 </template>
 
 <style lang="scss" scoped>
