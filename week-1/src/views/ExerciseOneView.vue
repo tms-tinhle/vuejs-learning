@@ -17,6 +17,6 @@ const fullName = computed(() => {
 })
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
   @use '../assets/styles/exercise-one-view.scss'
 </style>
