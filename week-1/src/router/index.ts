@@ -1,23 +1,24 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import HomeView from '../views/ExerciseOneView.vue'
+import { RouteNames } from '@/constant/routeNames'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/',
-      name: 'home',
+      path: '/bai4.1',
+      name: RouteNames.Exercise5_1,
       component: HomeView,
     },
     {
-      path: '/about',
-      name: 'about',
-      component: () => import('../views/AboutView.vue'),
+      path: '/bai4.2',
+      name: RouteNames.Exercise5_2,
+      component: () => import('../views/ExerciseTwoView.vue'),
     },
     {
-      path: '/login',
-      name: 'login',
-      component: () => import('../views/LoginView.vue'),
+      path: '/bai4.3',
+      name: RouteNames.Exercise5_3,
+      component: () => import('../views/ExerciseThreeView.vue'),
     },
   ],
 })
