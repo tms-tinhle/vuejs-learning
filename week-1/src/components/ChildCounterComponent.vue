@@ -1,12 +1,13 @@
 <script lang="ts" setup>
   import {ref, watch} from 'vue';
+  import { defineEmits, defineProps } from 'vue';
 
   const props = defineProps<{
     start: number
   }>();
 
   const emit = defineEmits<{
-    (e: 'updateCount', newValue: number): void
+    (e: 'update', newValue: number): void
   }>();
 
   const count = ref(props.start);
@@ -17,11 +18,11 @@
 
   const onIncrease = () => {
     count.value++;
-    emit('increase', count.value);
+    emit('update', count.value);
   };
   const onDecrease = () => {
     count.value--;
-    emit('decrease', count.value);
+    emit('update', count.value);
   };
 
 </script>
