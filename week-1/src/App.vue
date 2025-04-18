@@ -7,21 +7,21 @@ import { NavItems } from '@/constant/navItemsConstant';
 
 <template>
   <div class="container">
-    <div class="container">
-      <header class="header">
-        <div class="header__wrapper">
-          <nav class="header__nav">
-            <RouterLink v-for="item in NavItems" :key="item.path" :to="item.path"
-              :class="['header__link', { 'header__link--active': route.path === item.path }]">
-              {{ item.label }}
-            </RouterLink>
-          </nav>
-        </div>
-      </header>
-      <RouterView />
+    <header>
+    <div class="wrapper">
+      <nav>
+        <RouterLink
+          v-for="item in NavItems"
+          :key="item.path"
+          :to="item.path"
+          :class="{ active: route.path === item.path }"
+        >
+          {{ item.label }}
+        </RouterLink>
+      </nav>
     </div>
-
-    <RouterView />
+  </header>
+  <RouterView />
   </div>
 </template>
 

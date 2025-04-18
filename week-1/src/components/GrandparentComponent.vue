@@ -18,3 +18,6 @@
   </div>
 </template>
 
+<style lang="scss" scoped>
+  @use '../assets/styles/exercise-three.scss'
+</style>

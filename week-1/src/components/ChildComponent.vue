@@ -20,9 +20,13 @@ const onHandleSend = () => {
 </script>
 
 <template>
-  <div class="child">
+  <div class="chill">
     <p>Message from Grandparent: <strong>{{ message }}</strong></p>
-    <input v-model="newMsg" placeholder="Type new message" />
-    <button @click="onHandleSend">Send</button>
+    <input class="child__input" v-model="newMsg" placeholder="Type new message" />
+    <button class="child__button" @click="onHandleSend">Send</button>
   </div>
 </template>
+
+<style lang="scss" scoped>
+  @use '../assets/styles/exercise-three.scss';
+</style>
