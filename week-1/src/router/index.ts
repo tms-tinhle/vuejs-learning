@@ -6,19 +6,14 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/exercise-one',
-      name: RouteNames.Exercise6_1,
+      path: '/bai11-1',
+      name: RouteNames.Exercise11_1,
       component: HomeView,
     },
     {
-      path: '/exercise-two',
-      name: RouteNames.Exercise6_2,
+      path: '/bai11-2',
+      name: RouteNames.Exercise11_2,
       component: () => import('../views/ExerciseTwoView.vue'),
-    },
-    {
-      path: '/exercise-three',
-      name: RouteNames.Exercise6_3,
-      component: () => import('../views/ExerciseThreeView.vue'),
     },
   ],
 })
