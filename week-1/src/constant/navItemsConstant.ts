@@ -1,5 +1,6 @@
 export const NavItems = [
-  { path: '/bai5.1', label: 'Bài 1:' },
-  { path: '/bai5.2', label: 'Bài 2:' },
-  { path: '/bai5.3', label: 'Bài 3:' },
-];
+  { path: '/home', label: 'Bài 1:' },
+  { path: '/about', label: 'Bài 2:' },
+  { path: '/contact', label: 'Bài 3:' },
+  { path: '/bai2', label: 'Bài 4:' },
+]
