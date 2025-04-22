@@ -10,7 +10,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import Clock from '../components/Clock.vue'
+import Clock from '../components/ClockComponent.vue'
 
 const show = ref(true)
 </script>

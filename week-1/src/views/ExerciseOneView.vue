@@ -10,7 +10,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import LifecycleDemo from '../components/LifecycleDemo.vue'
+import LifecycleDemo from '../components/LifecycleDemoComponent.vue'
 
 const show = ref(true)
 </script>
