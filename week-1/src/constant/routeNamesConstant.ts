@@ -1,5 +1,4 @@
 export enum RouteNames {
-  Exercise6_1= 'excercise6_1',
-  Exercise6_2= 'excercise6_2',
-  Exercise6_3= 'excercise6_3',
+  Exercise8_1= 'excercise8_1',
+  Exercise8_2= 'excercise8_2',
 }
