@@ -1,0 +1,18 @@
+.wrapper {
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__container {
+    background: white;
+    border-radius: 10px;
+    width: 400px;
+    overflow: hidden;
+    &__header, &__footer {
+      background: #f0f0f0;
+      padding: 12px;
+      font-weight: bold;
+    }
+  }
+}
