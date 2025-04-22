@@ -20,6 +20,11 @@ const router = createRouter({
       name: RouteNames.Contact,
       component: () => import('../views/ContactView.vue'),
     },
+    {
+      path: '/bai2',
+      name: RouteNames.Bai2,
+      component: () => import('../views/ExerciseTwoView.vue'),
+    }
   ],
 })
 
