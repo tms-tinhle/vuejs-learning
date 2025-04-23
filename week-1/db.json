@@ -1,0 +1,25 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Le Tinh",
+      "age": "18",
+      "email": "levantrungtinh13@gmail.com",
+      "image": "https://picsum.photos/id/237/200/200"
+    },
+    {
+      "id": "3",
+      "name": "Le Van Thuong",
+      "age": "21",
+      "email": "ledatG@gmail.com",
+      "image": "https://picsum.photos/id/239/200/200"
+    },
+    {
+      "id": "9",
+      "name": "Le Van Trung 1",
+      "age": "38",
+      "email": "ledatG@gmail.com",
+      "image": "https://picsum.photos/id/245/200/200"
+    }
+  ]
+}
