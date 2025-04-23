@@ -6,7 +6,8 @@ import { NavItems } from '@/constant/navItemsConstant';
 </script>
 
 <template>
-  <header>
+  <div class="container">
+    <header>
     <div class="wrapper">
       <nav>
         <RouterLink
@@ -21,6 +22,7 @@ import { NavItems } from '@/constant/navItemsConstant';
     </div>
   </header>
   <RouterView />
+  </div>
 </template>
 
 <style lang="scss" scoped>

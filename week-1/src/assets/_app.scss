@@ -9,19 +9,18 @@ $transition-duration: 0.3s;
 header {
   background-color: $secondary-color;
   padding: 1.5rem 0;
+  border-radius: 8px;
+  width: 100%;
   box-shadow: $box-shadow;
-  position: sticky; // Giữ header cố định trên đầu trang khi cuộn (tùy chọn)
-  top: 0; // Kết hợp với position: sticky
-  z-index: 10; // Đảm bảo header không bị nội dung khác che phủ
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .wrapper {
   display: flex;
-  justify-content: space-between; // Căn các phần tử bên trong wrapper ra hai đầu (nếu cần thêm logo, v.v.)
-  align-items: center;
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1.5rem; // Thêm padding ngang cho wrapper
+  padding: 0 1.5rem;
 }
 
 nav {
@@ -36,7 +35,9 @@ nav a {
   font-weight: 500;
   padding: 0.7rem 1.2rem;
   border-radius: $border-radius;
-  transition: background-color $transition-duration ease, color $transition-duration ease;
+  transition:
+    background-color $transition-duration ease,
+    color $transition-duration ease;
 
   &:hover {
     background-color: darken($primary-color, 10%);
@@ -50,7 +51,6 @@ nav a {
   }
 }
 
-// Thêm một số hiệu ứng tinh tế khác (tùy chọn)
 @keyframes fadeIn {
   from {
     opacity: 0;
